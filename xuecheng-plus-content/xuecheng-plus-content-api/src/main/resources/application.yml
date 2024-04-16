@@ -1,0 +1,26 @@
+server:
+  servlet:
+    context-path: /content/
+  port: 63040
+spring:
+  application:
+    name: content-api
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xc_content
+
+logging:
+  level:
+    com:
+      james:
+        content: debug
+
+swagger:
+  title: "学成在线内容管理系统"
+  description: "对相关课程信息进行处理"
+  base-package: com.james.content
+  enabled: true
+  version: 1.0.0

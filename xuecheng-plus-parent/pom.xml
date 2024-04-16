@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.james</groupId>
+    <groupId>com.xuecheng</groupId>
     <artifactId>xuecheng-plus-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -192,7 +192,7 @@
 
         </dependencies>
     </dependencyManagement>
-
+<!---->
     <build>
         <finalName>${project.name}</finalName>
         <!--编译打包过虑配置-->

@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: content-service
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xc_content
+
+logging:
+  level:
+    com:
+      james:
+        content: debug
+
