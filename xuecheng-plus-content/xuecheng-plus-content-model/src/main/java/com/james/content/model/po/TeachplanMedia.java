@@ -2,6 +2,7 @@ package com.james.content.model.po;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
+import lombok.ToString;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -14,6 +15,7 @@ import java.time.LocalDateTime;
  * @author itcast
  */
 @Data
+@ToString
 @TableName("teachplan_media")
 public class TeachplanMedia implements Serializable {
 

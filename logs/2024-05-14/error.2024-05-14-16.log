@@ -1,0 +1,278 @@
+2024-05-14 16:25:14,594 ERROR [http-nio-63050-exec-2][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/media] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, resource = /video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, requestId = 17CF4D6D3853C8B4, hostId = ce138192-8e64-4be9-a5a2-e35ccb2418ec)
+request={method=GET, url=http://127.0.0.1:9000/video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, headers=Host: 127.0.0.1:9000
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 10; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240514T082514Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240514/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 377
+Content-Security-Policy: block-all-mixed-content
+Content-Type: application/xml
+No-Gzip-Compression: true
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Request-Id: 17CF4D6D3853C8B4
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Tue, 14 May 2024 08:25:14 GMT
+}
+] with root cause
+error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, resource = /video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, requestId = 17CF4D6D3853C8B4, hostId = ce138192-8e64-4be9-a5a2-e35ccb2418ec)
+request={method=GET, url=http://127.0.0.1:9000/video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, headers=Host: 127.0.0.1:9000
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 10; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240514T082514Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240514/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 377
+Content-Security-Policy: block-all-mixed-content
+Content-Type: application/xml
+No-Gzip-Compression: true
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Request-Id: 17CF4D6D3853C8B4
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Tue, 14 May 2024 08:25:14 GMT
+}
+
+	at io.minio.S3Base$1.onResponse(S3Base.java:690)
+	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-05-14 16:28:35,346 ERROR [http-nio-63050-exec-2][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/media] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, resource = /video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, requestId = 17CF4D9BF8456078, hostId = ce138192-8e64-4be9-a5a2-e35ccb2418ec)
+request={method=GET, url=http://127.0.0.1:9000/video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, headers=Host: 127.0.0.1:9000
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 10; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240514T082835Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240514/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 377
+Content-Security-Policy: block-all-mixed-content
+Content-Type: application/xml
+No-Gzip-Compression: true
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Request-Id: 17CF4D9BF8456078
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Tue, 14 May 2024 08:28:35 GMT
+}
+] with root cause
+error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, resource = /video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, requestId = 17CF4D9BF8456078, hostId = ce138192-8e64-4be9-a5a2-e35ccb2418ec)
+request={method=GET, url=http://127.0.0.1:9000/video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, headers=Host: 127.0.0.1:9000
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 10; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240514T082835Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240514/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 377
+Content-Security-Policy: block-all-mixed-content
+Content-Type: application/xml
+No-Gzip-Compression: true
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Request-Id: 17CF4D9BF8456078
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Tue, 14 May 2024 08:28:35 GMT
+}
+
+	at io.minio.S3Base$1.onResponse(S3Base.java:690)
+	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-05-14 16:33:22,563 ERROR [http-nio-63050-exec-6][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/media] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, resource = /video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, requestId = 17CF4DB63E0DFD80, hostId = ce138192-8e64-4be9-a5a2-e35ccb2418ec)
+request={method=GET, url=http://127.0.0.1:9000/video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, headers=Host: 127.0.0.1:9000
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 10; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240514T083028Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240514/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 377
+Content-Security-Policy: block-all-mixed-content
+Content-Type: application/xml
+No-Gzip-Compression: true
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Request-Id: 17CF4DB63E0DFD80
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Tue, 14 May 2024 08:30:28 GMT
+}
+] with root cause
+error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, resource = /video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, requestId = 17CF4DB63E0DFD80, hostId = ce138192-8e64-4be9-a5a2-e35ccb2418ec)
+request={method=GET, url=http://127.0.0.1:9000/video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, headers=Host: 127.0.0.1:9000
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 10; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240514T083028Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240514/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 377
+Content-Security-Policy: block-all-mixed-content
+Content-Type: application/xml
+No-Gzip-Compression: true
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Request-Id: 17CF4DB63E0DFD80
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Tue, 14 May 2024 08:30:28 GMT
+}
+
+	at io.minio.S3Base$1.onResponse(S3Base.java:690)
+	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-05-14 16:36:04,474 ERROR [http-nio-63050-exec-4][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/media] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, resource = /video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, requestId = 17CF4DF1FE5FCD80, hostId = ce138192-8e64-4be9-a5a2-e35ccb2418ec)
+request={method=GET, url=http://127.0.0.1:9000/video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, headers=Host: 127.0.0.1:9000
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 10; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240514T083444Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240514/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 377
+Content-Security-Policy: block-all-mixed-content
+Content-Type: application/xml
+No-Gzip-Compression: true
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Request-Id: 17CF4DF1FE5FCD80
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Tue, 14 May 2024 08:34:44 GMT
+}
+] with root cause
+error occurred
+ErrorResponse(code = NoSuchKey, message = The specified key does not exist., bucketName = video, objectName = f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, resource = /video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, requestId = 17CF4DF1FE5FCD80, hostId = ce138192-8e64-4be9-a5a2-e35ccb2418ec)
+request={method=GET, url=http://127.0.0.1:9000/video/f/e/fe8c1db33e9e89474149dd700339c480/chunk/0, headers=Host: 127.0.0.1:9000
+Accept-Encoding: identity
+User-Agent: MinIO (Windows 10; amd64) minio-java/8.4.3
+Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+x-amz-content-sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date: 20240514T083444Z
+Authorization: AWS4-HMAC-SHA256 Credential=*REDACTED*/20240514/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=*REDACTED*
+}
+response={code=404, headers=Accept-Ranges: bytes
+Content-Length: 377
+Content-Security-Policy: block-all-mixed-content
+Content-Type: application/xml
+No-Gzip-Compression: true
+Server: MinIO
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Amz-Request-Id: 17CF4DF1FE5FCD80
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Date: Tue, 14 May 2024 08:34:44 GMT
+}
+
+	at io.minio.S3Base$1.onResponse(S3Base.java:690)
+	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-05-14 16:38:34,781 ERROR [http-nio-63050-exec-3][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/media] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: java.lang.NullPointerException] with root cause
+java.lang.NullPointerException
+	at com.xuecheng.media.service.impl.MediaFileServiceImpl.checkChunk(MediaFileServiceImpl.java:201)
+	at com.xuecheng.media.service.impl.MediaFileServiceImpl$$FastClassBySpringCGLIB$$c5338eb0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.xuecheng.media.service.impl.MediaFileServiceImpl$$EnhancerBySpringCGLIB$$41600a18.checkChunk(<generated>)
+	at com.xuecheng.media.api.BigFilesController.checkChunk(BigFilesController.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)

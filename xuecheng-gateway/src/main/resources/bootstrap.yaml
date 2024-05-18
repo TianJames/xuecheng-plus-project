@@ -1,0 +1,33 @@
+#ribbon:
+#  eager-load:
+#    enabled: true
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: dev
+        group: xuecheng-plus-project
+      config:
+        group: xuecheng-plus-project
+        namespace: dev
+        file-extension: yaml
+        refresh-enabled: true
+  #    gateway:
+  #      routes:
+  #        - id: content-api
+  #          uri: lb://content-api
+  #          predicates:
+  #            - Path=/content/**
+  #
+  #        - id: system-api
+  #          uri: lb://system-api
+  #          predicates:
+  #            - Path=/system/**
+
+  profiles:
+    active: dev
+#server:
+#  port: 63010

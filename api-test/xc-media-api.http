@@ -1,0 +1,9 @@
+### 上传文件
+POST {{media_host}}/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="20200902094756141.png"
+Content-Type: application/octet-stream
+
+< E:\笔记\java\assest\20200902094756141.png

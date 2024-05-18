@@ -12,6 +12,10 @@
     <description>xuecheng-plus-parent</description>
     <modules>
         <module>../xuecheng-plus-base</module>
+        <module>../xuecheng-gateway</module>
+        <module>../xuecheng-plus-content</module>
+        <module>../xuecheng-plus-media</module>
+        <module>../xuecheng-plus-system</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -1,7 +1,10 @@
 package com.james.content.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.james.content.model.dto.TeachPlanDto;
 import com.james.content.model.po.Teachplan;
+
+import java.util.List;
 
 /**
  * <p>
@@ -11,5 +14,5 @@ import com.james.content.model.po.Teachplan;
  * @author itcast
  */
 public interface TeachplanMapper extends BaseMapper<Teachplan> {
-
+    List<TeachPlanDto> getTreeNodes(Long courseId);
 }
